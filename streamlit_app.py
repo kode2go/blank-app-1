@@ -1,7 +1,7 @@
 import streamlit as st
 import pandas as pd
 
-st.tittle("Retail Analytics Dashboard")
+st.title("Retail Analytics Dashboard")
 
 file = st.file_uploader("Upload CSV", type="csv")
 
